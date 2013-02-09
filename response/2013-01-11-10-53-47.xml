@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ShipmentValidateResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com ship-val-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2013-01-11T03:53:42+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>PureElementsUS</SiteID>
+        </ServiceHeader>
+    </Response>
+    <Note>
+        <ActionNote>Success</ActionNote>
+    </Note>
+    <AirwayBillNumber>9480942516</AirwayBillNumber>
+    <BillingCode>DSA</BillingCode>
+    <CurrencyCode>USD</CurrencyCode>
+    <CourierMessage>For testing purpose only. Please do not ship</CourierMessage>
+    <DestinationServiceArea>
+        <ServiceAreaCode>JCC</ServiceAreaCode>
+        <FacilityCode>JCC</FacilityCode>
+        <InboundSortCode>.</InboundSortCode>
+    </DestinationServiceArea>
+    <OriginServiceArea>
+        <ServiceAreaCode>KUL</ServiceAreaCode>
+        <OutboundSortCode>.</OutboundSortCode>
+    </OriginServiceArea>
+    <Rated>N</Rated>
+    <InsuredAmount>3000.10</InsuredAmount>
+    <WeightUnit>K</WeightUnit>
+    <ChargeableWeight>4.0</ChargeableWeight>
+    <DimensionalWeight>0.0</DimensionalWeight>
+    <CountryCode>MY</CountryCode>
+    <Barcodes>
+        <AWBBarCode>iVBORw0KGgoAAAANSUhEUgAAAYwAAABeAQMAAAAKdrGZAAAABlBMVEX///8AAABVwtN+AAAAaklEQVR42mNkYGBIyL8whfvc2wWvkqfVdu3W+DXzl8Pa96f+L9NM1bHmtnM1ctisdvhUeE/A13vzlRYwMDAxkAxGtYxqGdUyqmVUy6iWUS2jWka1jGoZ1TKqZVTLqJZRLaNaRrWMaiEVAAAkrhi8SheRrgAAAABJRU5ErkJggg==</AWBBarCode>
+        <OriginDestnBarcode>iVBORw0KGgoAAAANSUhEUgAAATUAAABeAQMAAAB4lRFqAAAABlBMVEX///8AAABVwtN+AAAAVklEQVR42mNkYGBIyL8wZXPDygnpCWLBp14lN0YZedu53oj6rHZA95dwVP6FiRcYGJgYiAOj6kbVjaobVTeqblTdqLpRdaPqRtWNqhtVN6puVB011AEA06cRvKwtGRwAAAAASUVORK5CYII=</OriginDestnBarcode>
+        <DHLRoutingBarCode>iVBORw0KGgoAAAANSUhEUgAAAcIAAABeAQMAAACKBYaKAAAABlBMVEX///8AAABVwtN+AAAAbElEQVR42u3LoQ5AUABG4f/aRNkkT6J7hlsViWim3KgrJhhvdhvewCbgGTTbOemUz0hqo87H1TreXpfrmzo9TVpakxVzrikcfOh0VYtiJ9k9cdt8JO8G+hoSiUQikUgkEolEIpFIJBKJRP5NPhHHFrzm/qi9AAAAAElFTkSuQmCC</DHLRoutingBarCode>
+    </Barcodes>
+    <Piece>3</Piece>
+    <Contents>For testing purpose only. Please do not ship</Contents>
+    <Reference>
+        <ReferenceID>String</ReferenceID>
+        <ReferenceType>St</ReferenceType>
+    </Reference>
+    <Consignee>
+        <CompanyName>SiteIDPwd INC</CompanyName>
+        <AddressLine>2711 St</AddressLine>
+        <AddressLine>Appt 211</AddressLine>
+        <City>RedWood City</City>
+        <DivisionCode>CA</DivisionCode>
+        <PostalCode>94065</PostalCode>
+        <CountryCode>US</CountryCode>
+        <CountryName>United States of America</CountryName>
+        <Contact>
+            <PersonName>SiteIDPwd Sinha</PersonName>
+            <PhoneNumber>11234325423</PhoneNumber>
+            <PhoneExtension>45232</PhoneExtension>
+            <FaxNumber>11234325423</FaxNumber>
+            <Telex>454586</Telex>
+            <Email>
+                <From>test@email.com</From>
+                <To>test@email.com</To>
+                <cc>test@email.com</cc>
+                <Subject>Email subject</Subject>
+                <ReplyTo>test@email.com</ReplyTo>
+                <Body>email body</Body>
+            </Email>
+        </Contact>
+    </Consignee>
+    <Shipper>
+        <ShipperID>550000055</ShipperID>
+        <CompanyName>Santa inc</CompanyName>
+        <AddressLine>333 Twin </AddressLine>
+        <AddressLine>Suit 333</AddressLine>
+        <City>Kuala Lumpur</City>
+        <DivisionCode>CA</DivisionCode>
+        <PostalCode>94065</PostalCode>
+        <CountryCode>MY</CountryCode>
+        <CountryName>Malaysia</CountryName>
+        <Contact>
+            <PersonName>santa santa</PersonName>
+            <PhoneNumber>15356456364</PhoneNumber>
+            <PhoneExtension>6536</PhoneExtension>
+            <FaxNumber>17456356365</FaxNumber>
+            <Telex>74558</Telex>
+            <Email>
+                <From>test@email.com</From>
+                <To>test@email.com</To>
+                <cc>test@email.com</cc>
+                <Subject>Email subject</Subject>
+                <ReplyTo>test@email.com</ReplyTo>
+                <Body>email body</Body>
+            </Email>
+        </Contact>
+    </Shipper>
+    <CustomerID>131297</CustomerID>
+    <ShipmentDate>2013-01-12</ShipmentDate>
+    <GlobalProductCode>P</GlobalProductCode>
+    <Billing>
+        <ShipperAccountNumber>550000055</ShipperAccountNumber>
+        <ShippingPaymentType>S</ShippingPaymentType>
+        <DutyPaymentType>R</DutyPaymentType>
+    </Billing>
+    <Dutiable>
+        <DeclaredValue>50.10</DeclaredValue>
+        <DeclaredCurrency>USD</DeclaredCurrency>
+        <ShipperEIN>Text</ShipperEIN>
+    </Dutiable>
+    <DHLRoutingCode>US94065+48000001</DHLRoutingCode>
+    <DHLRoutingDataId>2L</DHLRoutingDataId>
+    <ProductContentCode>WPX</ProductContentCode>
+    <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+    <InternalServiceCode>C</InternalServiceCode>
+    <DeliveryDateCode/>
+    <DeliveryTimeCode/>
+    <Pieces>
+        <Piece>
+            <PieceNumber>1</PieceNumber>
+            <Depth>1.00</Depth>
+            <Width>2.00</Width>
+            <Height>3.00</Height>
+            <Weight>1.50</Weight>
+            <DimWeight>0.0</DimWeight>
+            <DataIdentifier>J</DataIdentifier>
+            <LicensePlate>JD012057889260002357</LicensePlate>
+            <LicensePlateBarCode>iVBORw0KGgoAAAANSUhEUgAAAZYAAABeAQMAAAA6+qC4AAAABlBMVEX///8AAABVwtN+AAAAaUlEQVR42u3LIRJAUBRA0UfwR1BYgG9xViAZwYsySTCj2IhiDwrFDMEKhG8NmnBPP56IlFE17E1RZ4sajc9gdL26OTWd5uEeT6sEj8ptk8NeW9uI+PIdh8PhcDgcDofD4XA4HA6H86fzAu8dFrwL37ELAAAAAElFTkSuQmCC</LicensePlateBarCode>
+        </Piece>
+        <Piece>
+            <PieceNumber>2</PieceNumber>
+            <Depth>4.00</Depth>
+            <Width>5.00</Width>
+            <Height>6.00</Height>
+            <Weight>2.50</Weight>
+            <DimWeight>0.0</DimWeight>
+            <DataIdentifier>J</DataIdentifier>
+            <LicensePlate>JD012057889260002358</LicensePlate>
+            <LicensePlateBarCode>iVBORw0KGgoAAAANSUhEUgAAAZYAAABeAQMAAAA6+qC4AAAABlBMVEX///8AAABVwtN+AAAAaElEQVR42u3LIRJAQBSA4UdYIyh7gR2HE2RpR/CSkUmCGcVFFHdQbOMOAmfQhP/rXyQiPqun0FVNvmmi9jLzM+qzumTQIg122cXcKmc7e1cefScSy3ccDofD4XA4HA6Hw+FwOBzOn84L8WUWvDZuCMgAAAAASUVORK5CYII=</LicensePlateBarCode>
+        </Piece>
+    </Pieces></res:ShipmentValidateResponse>
